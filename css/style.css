@@ -265,4 +265,14 @@ footer { padding-bottom: 28px; }
     .gallery-item img { filter: grayscale(0%); } /* Na telefonie od razu kolor */
     .style-subtitle {font-size: 0.8rem;}
     .section-title p { font-size: 0.77rem; }
+    .hero {
+        /* Musi być Gradient + URL */
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('../img/hero-bg.jpg');
+        
+        background-attachment: scroll !important;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
 }
